@@ -88,6 +88,25 @@
       </plugin>
     </plugins>
   </build>
+  <settings>
+    <pluginGroups>
+        <pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
+    </pluginGroups>
+    <profiles>
+        <profile>
+            <id>sonar</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <!-- Optional URL to server. Default value is http://localhost:9000 -->
+                <sonar.host.url>http://18.132.192.221:9000/</sonar.host.url>
+                <sonar.login>admin</sonar.login>
+                <sonar.password>admin</sonar.password>
+            </properties>
+        </profile>
+     </profiles>
+</settings>
   <dependencies>
     <dependency>
       <groupId>javax.servlet</groupId>
