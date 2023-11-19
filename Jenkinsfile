@@ -15,9 +15,14 @@ pipeline {
                     echo "Checking java version"
                     sh 'java --version'
                     echo ".........."
-                    sh 'mvn sonar:sonar'
-                
-                    
+                }
+            }
+        }
+        stage ('Code Quality Analysis'){
+            steps {
+                script {
+                    echo "Permorming Code Quality Analysis"
+                    sh "mvn sonar:sonar"
                 }
             }
         }
