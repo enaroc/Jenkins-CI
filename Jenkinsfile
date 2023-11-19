@@ -7,11 +7,12 @@ pipeline {
 
 
     stages {
-        stage ('init') {
+        stage ('Maven Test') {
             steps {
                 script {
-                    echo "I'm here"
-                    ls -la
+                    echo "Testing Code"
+                    mvn test
+                    
                 }
             }
         }
