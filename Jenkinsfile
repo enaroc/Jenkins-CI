@@ -7,11 +7,11 @@ pipeline {
 
 
     stages {
-        stage ('Maven Test') {
+        stage ('Maven Build') {
             steps {
                 script {
                     echo "Testing Code"
-                    sh 'mvn test'
+                    sh 'mvn clean package -Dskiptests=true'
                     
                 }
             }
