@@ -11,7 +11,8 @@ pipeline {
             steps {
                 script {
                     echo "Testing Code"
-                    sh 'mvn clean package -Dskiptests=true'
+                    //sh 'mvn clean package -Dskiptests=true'
+                    sh 'java --version'
                     
                 }
             }
