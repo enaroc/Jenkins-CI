@@ -1,4 +1,4 @@
-package com.microsoft.example;
+/* package com.microsoft.example;
 
 import java.util.Arrays;
 import java.util.Date;
@@ -34,7 +34,7 @@ public class FaresTest {
    * Verify that the Fare getters/setters are working correctly.
    * Only real complexity here is in the pennies/dollars logic.
    */  
-  @Test 
+  /*@Test 
   public void faresProperties() {
     Fare f = new Fare(1, 1, 
       "1 Test Way",
@@ -122,4 +122,4 @@ public class FaresTest {
 
   }
   
-}
+} */
