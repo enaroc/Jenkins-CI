@@ -15,6 +15,7 @@ pipeline {
                     echo "Checking java version"
                     sh 'java --version'
                     echo ".........."
+                    sh 'mvn sonar:sonar'
                 
                     
                 }
