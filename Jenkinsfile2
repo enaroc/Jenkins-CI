@@ -10,7 +10,7 @@ pipeline {
         stage ('Maven Build') {
             steps {
                 script {
-                    echo "Building package"
+                    echo "Testing Code"
                     sh 'mvn clean package -Dskiptests=true'
                     sh 'java --version'
                 
