@@ -12,7 +12,7 @@ pipeline {
                 script {
                     echo "Building package"
                     sh 'mvn clean package -Dskiptests=true'
-                    echo "Cheching java version"
+                    echo "Checking java version"
                     sh 'java --version'
                 
                     
