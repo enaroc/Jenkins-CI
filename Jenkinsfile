@@ -14,7 +14,7 @@ pipeline {
                     sh 'mvn clean package -Dskiptests=true'
                     echo "Checking java version"
                     sh 'java --version'
-                    echo ".............."
+                    echo ".........."
                 
                     
                 }
