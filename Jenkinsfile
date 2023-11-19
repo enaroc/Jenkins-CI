@@ -13,6 +13,7 @@ pipeline {
                     echo "Testing Code"
                     //sh 'mvn clean package -Dskiptests=true'
                     sh 'java --version'
+                
                     
                 }
             }
