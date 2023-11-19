@@ -11,7 +11,7 @@ pipeline {
             steps {
                 script {
                     echo "Testing Code"
-                    mvn test
+                    mvn clean package
                     
                 }
             }
