@@ -1,4 +1,4 @@
-/* package com.microsoft.example;
+ package com.microsoft.example;
 
 import java.util.Arrays;
 import java.util.Date;
@@ -122,4 +122,4 @@ public class FaresTest {
 
   }
   
-} */
+} 

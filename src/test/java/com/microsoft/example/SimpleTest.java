@@ -1,4 +1,4 @@
-/* package com.microsoft.example;
+ package com.microsoft.example;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
@@ -10,4 +10,4 @@ public class SimpleTest {
     assertEquals(6, sum);
   }
 }
- */
+ 
