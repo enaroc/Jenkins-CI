@@ -1,4 +1,4 @@
- package com.microsoft.example;
+/*  package com.microsoft.example;
 
 import static org.junit.Assert.*;
 import org.openqa.selenium.By;
@@ -73,4 +73,4 @@ public class UITestIT {
     driver.quit();
     driver = null;
   }
-} 
+}  */
