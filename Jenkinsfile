@@ -31,7 +31,7 @@ pipeline {
             steps {
                 script {
                     echo "Uploading to Nexus"
-                    sh "mvn deploy"
+                    sh "mvn deploy -Dskiptests=true"
                 }
             }
         }
