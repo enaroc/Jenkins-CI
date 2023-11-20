@@ -26,6 +26,15 @@ pipeline {
                 }
             }
         }
+
+        stage ('Upload to artifact'){
+            steps {
+                script {
+                    echo "Uploading to Nexus"
+                    sh "mvn deploy"
+                }
+            }
+        }
     }
 
 

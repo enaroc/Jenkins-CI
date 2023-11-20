@@ -139,14 +139,14 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://34.217.27.159:8081/repository/tesla-releases/</url>
+	      <name>Myshuttle Releases Nexus Repository</name>
+	      <url>http://18.170.56.88:8081/repository/shuttle-app/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://34.217.27.159:8081/repository/tesla-snapshots/</url>
+	      <name>Myshuttle Snapshot Nexus Repository </name>
+	      <url>http://18.170.56.88:8081/repository/shuttle-app-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
